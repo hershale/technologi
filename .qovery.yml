@@ -1,0 +1,15 @@
+---
+application:
+  name: "technologi"
+  project: "technology"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "technologi"
+  version: "4.4"
+routers:
+- name: "main-technologi"
+  routes:
+  - application_name: "technologi"
+    paths:
+    - "/*"
